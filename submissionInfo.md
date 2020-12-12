@@ -20,7 +20,7 @@ Ziva Wernick
 _Database Manager_ The Jaffa Institute in Israel  
 _Bachelor’s Degree Computer Science_ Clark University, Worcester, MA, USA  
   
-Brandon Muller 
+Brandon Muller  
 _2nd Year Undergraduate Computer Science and Engineering Student_ University of Texas at San Antonio, TX, USA  
 
 Priyanshu Mohanty  
