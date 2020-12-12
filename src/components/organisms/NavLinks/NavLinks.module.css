@@ -1,0 +1,19 @@
+.link_tab {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+
+  border: 1px solid red;
+}
+
+.link_icons {
+  text-align: center;
+}
