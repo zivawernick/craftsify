@@ -9,7 +9,7 @@ import desk from "./assets/img/desk.svg";
 import paint from "./assets/img/paint.svg";
 import sew from "./assets/img/sew.svg";
 
-const name = "Vilma";
+const name = "Sharmistha";
 const greetings = {
   dashboard: `Welcome ${name}`,
   clasroom: "Classroom",
