@@ -23,7 +23,7 @@ const courses = [
     id: 1,
     name: "Sewing",
     dificult: 2,
-    text: "This course consists of learning to sew",
+    text: "Learn how to sew. Start with the basics and learn how to complete more complicated projects",
     completed: 50,
     src: sew,
     videoList: [
@@ -37,7 +37,7 @@ const courses = [
     id: 2,
     name: "Carpentry",
     dificult: 3,
-    text: "This course consists of learning to build a desk",
+    text: "This course will help you learn to build a desk",
     completed: 24,
     src: desk,
     videoList: [
@@ -52,7 +52,7 @@ const courses = [
     id: 3,
     name: "Painting",
     dificult: 1,
-    text: "This course consists of learning to paint",
+    text: "Learn to paint with this course. Learn about different colors, paints and various techniques",
     completed: 5,
     src: paint,
     videoList: [
