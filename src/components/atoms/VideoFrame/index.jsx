@@ -9,7 +9,6 @@ function VideoFrame({ key, src, name }) {
         title={name}
         key={key}
         src={src}
-        height={150}
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

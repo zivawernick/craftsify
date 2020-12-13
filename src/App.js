@@ -25,7 +25,7 @@ const courses = [
     dificult: 2,
     text: "This course consists of learning to sew",
     completed: 50,
-    src: "./assets/img/sew.svg",
+    src: sew,
     videoList: [
       "https://www.youtube.com/watch?v=oD_KpZm7OaM",
       "https://www.youtube.com/watch?v=rXmnb4AALXg",
