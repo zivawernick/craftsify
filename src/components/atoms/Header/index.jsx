@@ -7,24 +7,24 @@ import InfoProgress from "../../organisms/InfoProgress";
 import css from "./Header.module.css";
 
 const complementaryItems = {
-  icon: {
+  dashboard: {
     path: "/",
     render: <FaUserCircle size={50} key={"icon"} />,
-    name: "Icon",
+    name: "Vilma Orga,",
   },
-  progress: {
+  course: {
     path: "/course",
-    render: <InfoProgress key={"progress"} />,
-    name: "Courses",
+    render: <InfoProgress actual={30} />,
+    name: "Course",
   },
   profile: {
     path: "/profile",
-    render: <InfoProgress key={"progress"} />,
+    render: null,
     name: "Profile",
   },
   explore: {
     path: "/explore",
-    render: <InfoProgress key={"progress"} />,
+    render: null,
     name: "Explore",
   },
   login: {
@@ -44,8 +44,9 @@ function Header(props) {
         <div className={css.header_hello}>
           <h3 className={css.header_page}>
             {Object.keys(complementaryItems).map((item) => {
+              console.log(props.greet);
               return complementaryItems[item].path === pathname
-                ? complementaryItems[item].name
+                ? `${props.greet[item]}`
                 : null;
             })}
           </h3>

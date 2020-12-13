@@ -3,19 +3,10 @@ import { Progress } from "reactstrap";
 
 import css from "./InfoProgress.module.css";
 
-console.log();
-const calcProgress = 4;
-
-function InfoProgress() {
+function InfoProgress({ actual }) {
   return (
-    <div className="text-center ">
-      <Progress multi>
-        <Progress
-          color="success"
-          value={calcProgress * 10}
-          max={100}
-        ></Progress>
-      </Progress>
+    <div className={css.progress_bar}>
+      <Progress color="success" value={actual} max={100}></Progress>
     </div>
   );
 }

@@ -9,38 +9,7 @@ import Dashboard from "./components/pages/Dashboard";
 import Profile from "./components/pages/Profile";
 import UserSettings from "./components/pages/UserSettings";
 
-const name = "Vinicius";
-const greetings = {
-  dashboard: `Welcome ${name}`,
-  clasroom: "Classroom",
-  course: "Course",
-  explore: "Explore",
-  profile: "Profile",
-  settings: "Settings",
-};
-
-const courses = [
-  {
-    name: "Sewing",
-    dificult: 2,
-    text: "This course consists of learning to sew",
-    completed: 50,
-  },
-  {
-    name: "Carpentry",
-    dificult: 3,
-    text: "This course consists of learning to build a desk",
-    completed: 24,
-  },
-  {
-    name: "Painting",
-    dificult: 1,
-    text: "This course consists of learning to paint",
-    completed: 5,
-  },
-];
-
-function Routes() {
+function Routes({ courses }) {
   const [user, setUser] = React.useState({
     userName: "",
     isLogged: false,
@@ -50,22 +19,22 @@ function Routes() {
     <>
       <Switch>
         <Route exact path="/">
-          <Dashboard greet={greetings.dashboard} courses={courses} />
+          <Dashboard courses={courses} />
         </Route>
         <Route path="/classroom">
-          <ClassRoom greet={greetings.clasroom} />
+          <ClassRoom />
         </Route>
         <Route path="/course">
-          <Course greet={greetings.course} courses={courses} />
+          <Course courses={courses} />
         </Route>
         <Route path="/explore">
-          <Explore greet={greetings.explore} courses={courses} />
+          <Explore courses={courses} />
         </Route>
         <Route path="/profile">
-          <Profile greet={greetings.profile} />
+          <Profile />
         </Route>
         <Route path="/settings">
-          <UserSettings greet={greetings.settings} />
+          <UserSettings />
         </Route>
         <Route path="/login">
           <LoginPage />

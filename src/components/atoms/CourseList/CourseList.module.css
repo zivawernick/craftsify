@@ -1,0 +1,13 @@
+.list_item {
+  width: 90%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto 1em;
+}
+
+.info {
+  margin-top: 0.75em;
+}

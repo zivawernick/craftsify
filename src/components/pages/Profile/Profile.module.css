@@ -1,0 +1,12 @@
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1em 0.5em;
+  margin: 0 auto;
+}
+
+.text {
+  margin-left: 1em;
+}
