@@ -2,8 +2,12 @@ import * as React from "react";
 
 import css from "./Login.module.css";
 
-function LoginPage() {
-  return <h1 className={css}>LoginPage</h1>;
+function LoginPage(props) {
+  return (
+    <div>
+      <button className={css}>LogIN</button>
+    </div>
+  );
 }
 
 export default LoginPage;

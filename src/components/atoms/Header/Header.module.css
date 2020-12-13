@@ -1,0 +1,26 @@
+img {
+  width: 50%;
+  height: auto;
+}
+
+.logo {
+  margin: 0 auto;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  align-items: center;
+  width: 100vw;
+}
+
+.header_mesage {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.header_complement {
+  align-self: flex-end;
+}
