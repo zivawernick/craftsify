@@ -14,9 +14,9 @@ function Profile() {
         <Media body className={css.text}>
           <Media heading>User info</Media>
           <ul>
-            <li>Name: Vilma Orga</li>
+            <li>Name: Sharmistha Singh</li>
             <li>Age: 54</li>
-            <li>Gender: Woman</li>
+            <li>Language: English</li>
             <li>Country: India</li>
           </ul>
         </Media>
