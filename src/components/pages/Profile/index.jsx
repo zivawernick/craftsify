@@ -15,9 +15,13 @@ function Profile() {
           <Media heading>User info</Media>
           <ul>
             <li>Name: Sharmistha Singh</li>
+            <br/>
             <li>Age: 54</li>
+            <br/>
             <li>Language: English</li>
+            <br/>
             <li>Country: India</li>
+            <br/>
           </ul>
         </Media>
       </Media>
